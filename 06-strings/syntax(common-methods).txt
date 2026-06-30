@@ -1,0 +1,33 @@
+len()
+
+.upper()
+
+.lower()
+
+.title()
+
+.capitalize()
+
+.strip()
+
+.replace()
+
+.find()
+
+.count()
+
+.startswith()
+
+.endswith()
+
+in
+
+e.g :name = "Areeba"
+
+for i in range(len(name)):
+    print(name[i])
+
+
+not in
+
+e.g:
