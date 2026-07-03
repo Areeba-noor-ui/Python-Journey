@@ -6,14 +6,14 @@ numbers=[23,67,89,32,14,56]
 
 target=int(input("Enter Number to find:\n"))
 
-found='false'
+found=False
 
 for index,value in enumerate(numbers):
     if (target==value):
         print("Target ",value ," found at index ",index )
-        found='true'
+        found=True
         break
 
-if  found:
+if  not found:
     print("Target value not found.")
         
